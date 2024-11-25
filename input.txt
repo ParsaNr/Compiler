@@ -1,0 +1,3 @@
+22.5 22 by with clause _ident_ to f-loop w-loop "string" define |set| 
+|minus| minus |div| 
+hello tfty
