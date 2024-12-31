@@ -1,0 +1,27 @@
+#Simple Assignment
+int _x_ |set| 10
+
+#Nested if clause
+clause ( true ) { } another_Clause ( false ) { int _x_ |set| 5 } end { int _y_ |set| _faraz_ |div| 25 }
+
+#F-loop
+f-loop ( from 1 to 10 by _x_ < 5 ) { int _y_ |set| _x_ |multi| 5 }
+
+#W-loop
+w-loop ( from 0 to 5 ) { int _x_ |set| _parsa_ |multi| 25 }
+
+#Function Definition & Call
+define _parsa_ ( _ali_ ) { clause ( _x_ |value| _y_ ) { _z_ |set| 42 } } _h_ ( 10 )
+
+#Logical Condition
+clause ( true ) { _x_ |div| 2 }
+
+#Complex Expresion
+_y_ |add| _z_ |multi| 5 |div| _t_
+
+#Invalid Token
+unknown_TK
+
+#Mixed Synatx
+int _x_ |set| _j_ |add| 10
+clause ( _c_ < _h_ ) { f-loop ( from 1 to 5 by _c_ ) { string _h_ |set| "Hello" } }

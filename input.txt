@@ -1,3 +1,1 @@
-22.5 22 by with clause _ident_ to f-loop w-loop "string" define |set| 
-|minus| minus |div| 
-hello tfty
+clause ( true ) { } another_Clause ( false ) { int _x_ |set| 5 } end { int _y_ |set| _faraz_ |div| 25 }
